@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background: #282D35;
+  font-family: inter, sans-serif;
+  min-height:100vh;
+}
+
+.myContainer{
+  
+  margin: 0 auto;
+  text-align: center;
+  background: #21222A;
+  color: white;
+  max-width: 300px;
+}
+
+.info-image{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.info-name{
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.info-job{
+  margin: 0;
+}
+
+.info-web{
+  margin-bottom: 15px;
+}
+
+.about, .interest{
+  margin-top: 15px;
+  text-align: left;
+  padding: 0px 0px 0px 20px;
+}
+
+.footer{
+  background: #14151a;
+  height: 55px;
+  font-size: 2.2rem;
+}
+
+.fa{
+  margin-right: 10px;
+}
