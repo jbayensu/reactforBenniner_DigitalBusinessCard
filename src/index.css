@@ -25,16 +25,21 @@ body{
 }
 
 .info-name{
-  margin-bottom: 0;
-  font-size: 2rem;
+  margin: 15px 0px 0px 0px;
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 
 .info-job{
   margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .info-web{
   margin-bottom: 15px;
+  font-size: .7rem;
+  color: bisque;
 }
 
 .about, .interest{
@@ -43,12 +48,25 @@ body{
   padding: 0px 0px 0px 20px;
 }
 
+.about-title, .interest-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.about-p, .interest>p{
+  font-size: .8rem;
+}
+
 .footer{
   background: #14151a;
-  height: 55px;
-  font-size: 2.2rem;
+  height: 50px;
+  font-size: 2.1rem;
 }
 
 .fa{
   margin-right: 10px;
+}
+
+.row{
+  display: flex;
 }
